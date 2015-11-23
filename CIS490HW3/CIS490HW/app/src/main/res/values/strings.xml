@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CIS490HW3</string>
+
+    <string name="textview">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Update The TextView</string>
+    <string name="hint">A Name</string>
+</resources>

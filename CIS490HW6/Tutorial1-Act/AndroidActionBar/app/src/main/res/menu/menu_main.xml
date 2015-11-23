@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--had to add the app thing above here because it didn't like having the icon stuff in android:-->
+    <!--why the F isn't the launcher icon showing on the menu?  This is the exact same code as the tutorial-->
+
+    <item android:id="@+id/action_speech"
+        android:icon="@mipmap/ic_action_microphone"
+        app:showAsAction="ifRoom"
+        android:title="Speech"/>
+    <item android:id="@+id/action_call"
+        android:icon="@mipmap/ic_action_call"
+        app:showAsAction="ifRoom"
+        android:title="Call"/>
+    <item android:id="@+id/action_done"
+        android:icon="@mipmap/ic_action_done"
+        app:showAsAction="ifRoom"
+        android:title="Done"/>
+    <item android:id="@+id/action_contacts"
+        app:showAsAction="never"
+        android:title="Contacts"/>
+    <item android:id="@+id/action_settings"
+        app:showAsAction="never"
+        android:title="Settings"/>
+    <item android:id="@+id/action_status"
+        app:showAsAction="never"
+        android:title="Status" />
+</menu>
